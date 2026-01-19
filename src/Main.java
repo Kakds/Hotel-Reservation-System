@@ -58,7 +58,7 @@ public class Main {
             PreparedStatement psGuest = conn.prepareStatement(insertGuest);
             psGuest.setString(1, "Ali Akhmetov");
             psGuest.setString(2, "+77011234567");
-            psGuest.setInt(3, 1); // room_id
+            psGuest.setInt(3, 1);
             psGuest.executeUpdate();
             System.out.println("\nGuest added");
 
